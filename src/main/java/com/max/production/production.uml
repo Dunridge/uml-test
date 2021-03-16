@@ -3,29 +3,60 @@
   <ID>JAVA</ID>
   <OriginalElement>com.max.production</OriginalElement>
   <nodes>
-    <node x="0.0" y="85.0">com.max.production.Animal</node>
-    <node x="12.0" y="170.0">com.max.production.Cat</node>
-    <node x="154.0" y="0.0">com.max.production.Main</node>
-    <node x="0.0" y="250.0">com.max.production.Dog</node>
-    <node x="8.0" y="0.0">com.max.production.Bird</node>
+    <node x="244.36666666666667" y="14.5">com.max.production.Animal</node>
+    <node x="312.0" y="158.0">com.max.production.Cat</node>
+    <node x="0.0" y="281.0">com.max.production.Main</node>
+    <node x="156.0" y="144.0">com.max.production.Dog</node>
+    <node x="80.23333333333335" y="0.0">com.max.production.IAnimal</node>
+    <node x="0.0" y="144.0">com.max.production.Bird</node>
   </nodes>
   <notes />
   <edges>
-    <edge source="com.max.production.Animal" target="com.max.production.Bird">
-      <point x="0.0" y="-17.5" />
-      <point x="0.0" y="17.5" />
+    <edge source="com.max.production.Dog" target="com.max.production.IAnimal">
+      <point x="-34.0" y="-46.0" />
+      <point x="190.0" y="104.0" />
+      <point x="148.23333333333335" y="104.0" />
+      <point x="0.0" y="32.0" />
+    </edge>
+    <edge source="com.max.production.Bird" target="com.max.production.Animal">
+      <point x="34.0" y="-46.0" />
+      <point x="102.0" y="114.0" />
+      <point x="262.53333333333336" y="114.0" />
+      <point x="-36.333333333333314" y="17.5" />
     </edge>
     <edge source="com.max.production.Cat" target="com.max.production.Animal">
-      <point x="0.0" y="-17.5" />
+      <point x="34.0" y="-32.0" />
+      <point x="414.0" y="84.0" />
+      <point x="335.20000000000005" y="84.0" />
+      <point x="36.33333333333337" y="17.5" />
+    </edge>
+    <edge source="com.max.production.Bird" target="com.max.production.IAnimal">
+      <point x="-34.0" y="-46.0" />
+      <point x="34.0" y="104.0" />
+      <point x="102.9" y="104.0" />
+      <point x="-45.33333333333334" y="32.0" />
+    </edge>
+    <edge source="com.max.production.Dog" target="com.max.production.Animal">
+      <point x="34.0" y="-46.0" />
+      <point x="258.0" y="124.0" />
+      <point x="298.8666666666667" y="124.0" />
       <point x="0.0" y="17.5" />
     </edge>
+    <edge source="com.max.production.Cat" target="com.max.production.IAnimal">
+      <point x="-34.0" y="-32.0" />
+      <point x="346.0" y="94.0" />
+      <point x="193.5666666666667" y="94.0" />
+      <point x="45.33333333333334" y="32.0" />
+    </edge>
   </edges>
-  <settings layout="Hierarchic Group" zoom="1.0" x="123.5" y="142.5" />
+  <settings layout="Hierarchic Group" zoom="1.0" x="123.5" y="191.5" />
   <SelectedNodes>
-    <node>com.max.production.Animal</node>
+    <node>com.max.production.Cat</node>
   </SelectedNodes>
   <Categories>
     <Category>Properties</Category>
+    <Category>Methods</Category>
+    <Category>Constructors</Category>
   </Categories>
   <SCOPE>All</SCOPE>
   <VISIBILITY>private</VISIBILITY>
