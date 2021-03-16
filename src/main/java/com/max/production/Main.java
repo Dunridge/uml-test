@@ -18,17 +18,18 @@ public class Main {
         switch (mode) {
             case 1: {
                 this.animal = new Dog();
-                System.out.println("Dog");
                 break;
             }
             case 2: {
                 this.animal = new Bird();
-                System.out.println("Bird");
                 break;
             }
             case 3: {
                 this.animal = new Cat();
-                System.out.println("Cat");
+                break;
+            }
+            default: {
+                System.out.println("1 - Dog, 2 - Bird, 3 - Cat");
                 break;
             }
         }
