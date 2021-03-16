@@ -3,26 +3,34 @@
   <ID>JAVA</ID>
   <OriginalElement>com.max.production</OriginalElement>
   <nodes>
-    <node x="0.0" y="85.0">com.max.production.Animal</node>
-    <node x="12.0" y="170.0">com.max.production.Cat</node>
-    <node x="154.0" y="0.0">com.max.production.Main</node>
-    <node x="0.0" y="250.0">com.max.production.Dog</node>
-    <node x="8.0" y="0.0">com.max.production.Bird</node>
+    <node x="93.0" y="0.0">com.max.production.Animal</node>
+    <node x="105.0" y="85.0">com.max.production.Cat</node>
+    <node x="0.0" y="165.0">com.max.production.Main</node>
+    <node x="0.0" y="85.0">com.max.production.Dog</node>
+    <node x="210.0" y="85.0">com.max.production.Bird</node>
   </nodes>
   <notes />
   <edges>
-    <edge source="com.max.production.Animal" target="com.max.production.Bird">
+    <edge source="com.max.production.Bird" target="com.max.production.Animal">
       <point x="0.0" y="-17.5" />
-      <point x="0.0" y="17.5" />
+      <point x="256.5" y="60.0" />
+      <point x="183.83333333333334" y="60.0" />
+      <point x="36.33333333333334" y="17.5" />
     </edge>
     <edge source="com.max.production.Cat" target="com.max.production.Animal">
       <point x="0.0" y="-17.5" />
       <point x="0.0" y="17.5" />
     </edge>
+    <edge source="com.max.production.Dog" target="com.max.production.Animal">
+      <point x="0.0" y="-17.5" />
+      <point x="42.5" y="60.0" />
+      <point x="111.16666666666666" y="60.0" />
+      <point x="-36.33333333333334" y="17.5" />
+    </edge>
   </edges>
   <settings layout="Hierarchic Group" zoom="1.0" x="123.5" y="142.5" />
   <SelectedNodes>
-    <node>com.max.production.Animal</node>
+    <node>com.max.production.Main</node>
   </SelectedNodes>
   <Categories>
     <Category>Properties</Category>

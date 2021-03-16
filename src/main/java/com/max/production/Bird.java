@@ -1,4 +1,4 @@
 package com.max.production;
 
-public class Bird {
+public class Bird extends Animal {
 }
